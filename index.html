@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Request Form</h1>
+  <form action="https://hook.eu1.make.com/7mbs8652s8dxyfgi11ef6anm74f3fra1" method="POST" id="request-form">
+    <input name="datetime" type="datetime" hidden id="datetime">
+    <p>
+      <label for="name">Name</label>
+      <input required name="name" id="name" type="text">
+    </p>
+    <p>
+      <label for="phone">Phone</label>
+      <input required name="phone" id="phone" type="tel">
+    </p>
+    <button>Send request</button>
+  </form>
+  <hr>
+  <br>
+  <hr>
+  <form method="POST" id="netlify-form">
+    <input name="datetime" type="datetime" hidden id="datetime">
+    <p>
+      <label for="name">Name</label>
+      <input required name="name" id="name" type="text">
+    </p>
+    <p>
+      <label for="phone">Phone</label>
+      <input required name="phone" id="phone" type="tel">
+    </p>
+    <button>Send request</button>
+  </form>
+  <script src="/main.js"></script>
+</body>
+</html>
